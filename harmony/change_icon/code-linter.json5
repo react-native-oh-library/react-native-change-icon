@@ -1,0 +1,18 @@
+{
+  "files": ["**/*.ets", "**/*.ts", "**/*.js"],
+  "ignore": ["**/oh_modules/**", "**/build/**", "**/.preview/**", "**/node_modules/**", "**/generated/**"],
+  "ruleSet": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@hw-stylistic/recommended",
+    "plugin:@performance/recommended",
+    "plugin:@security/recommended",
+    "plugin:@correctness/recommended",
+    "plugin:@cross-device-app-dev/recommended",
+    "plugin:@compatibility/recommended",
+    "plugin:@previewer/recommended"
+  ],
+  "rules": {
+    // RNOH HAR 生态入口统一为小写 index.ets（oh-package.json5 main 入口），不适用大驼峰命名
+    "@hw-stylistic/file-naming-convention": "off"
+  }
+}

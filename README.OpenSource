@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "react-native-change-icon",
+        "License": "MIT License",
+        "License File": "https://github.com/skb1129/react-native-change-icon/blob/master/LICENSE",
+        "Version Number": "5.0.0",
+        "Owner": "306944670@qq.com",
+        "Upstream URL": "https://github.com/skb1129/react-native-change-icon",
+        "Description": "Change application icon programmatically in React Native."
+    }
+]

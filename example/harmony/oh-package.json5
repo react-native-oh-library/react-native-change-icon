@@ -1,0 +1,41 @@
+{
+  "modelVersion": "6.0.1",
+  "description": "Please describe the basic information.",
+  "dependencies": {
+    "@react-native-ohos/react-native-change-icon": "file:../node_modules/@react-native-ohos/react-native-change-icon/harmony/change_icon.har"
+  },
+  "devDependencies": {},
+  "overrides": {
+    // 切换 RN 框架时只改这一处，指向该框架 npm 包里的 RNOH HAR。
+    "@rnoh/react-native-openharmony": "file:../node_modules/@react-native-oh/react-native-harmony/react_native_openharmony.har",
+    "@react-native-ohos/react-native-change-icon": "../node_modules/@react-native-ohos/react-native-change-icon/harmony/change_icon.har"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

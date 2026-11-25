@@ -1,0 +1,1 @@
+export { ChangeIconPackage as default } from './src/main/ets/ChangeIconPackage';
