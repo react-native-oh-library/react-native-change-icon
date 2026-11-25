@@ -1,0 +1,16 @@
+{
+  "license": "MIT",
+  "devDependencies": {
+
+  },
+  "author": "Surya Kant Bansal <suryakantbansal97@gmail.com> (https://github.com/skb1129)",
+  "name": "@react-native-ohos/react-native-change-icon",
+  "description": "Change application icon programmatically in React-Native.",
+  "main": "index.ets",
+  "version": "1.0.0-beta.1",
+  "dependencies": {
+    // 不绑定某一框架的 HAR 文件名。宿主工程在 oh-package.json5 的 overrides 里
+    // 把 @rnoh/react-native-openharmony 指到当前 RN 框架带的 HAR。
+    "@rnoh/react-native-openharmony": ">=0.72.0"
+  }
+}
